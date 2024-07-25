@@ -13,9 +13,9 @@ function App() {
      setCount(count - 1);
     }
   return (
-    <div className="App">
-      <h1>app start</h1>
-      <div>        
+    <div className="text-4xl">
+      <h1 className="bg-yellow-400">app start</h1>
+      <div cl>        
         <button onClick={increment}>inc</button> {count} <button onClick={decrement}>dec</button>
       </div>
     </div>
